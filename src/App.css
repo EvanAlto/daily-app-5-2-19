@@ -96,3 +96,19 @@
   content: 'Profile';
   color: #1094aa;
 }
+
+@media screen and (max-width: 550px) {
+  .navigation > *.active  {
+    padding: 20px;
+  }
+
+  .navigation div svg {
+    padding: 0px;
+}
+
+  .navigation *::after,
+  .navigation *.active::after {
+    display: none;
+  }
+
+}
